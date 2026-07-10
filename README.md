@@ -1,32 +1,32 @@
 # Microsoft Word AI Bridge
 
-Un add-in per Microsoft Word che integra Intelligenza Artificiale direttamente nel tuo flusso di lavoro.
+An add-in for Microsoft Word that integrates Artificial Intelligence directly into your workflow.
 
-## 🤖 Strumenti Introdotti
+## 🤖 Tools Included
 
-- **Chat AI:** Interfaccia conversazionale per interagire con i modelli AI
-- **Agente Intelligente:** L'AI può leggere e modificare attivamente il documento in base ai tuoi comandi
-- **Azioni Rapide:** Traduzione, miglioramento testo, correzione grammaticale e sintesi con un clic
-- **Tracciamento Modifiche:** Visualizza le modifiche proposte come "Ripristino" per accettare o rifiutare
+- **Chat AI:** Conversational interface to interact with AI models
+- **Intelligent Agent:** AI can read and actively modify the document based on your commands
+- **Quick Actions:** Translation, text improvement, grammar correction, and summarization with one click
+- **Change Tracking:** View proposed changes as "Redlines" to accept or reject
 
-## 🔌 Integrazione API
+## 🔌 API Integration
 
-L'add-in supporta molteplici provider AI tramite **BYOK (Bring Your Own Key)**:
+The add-in supports multiple AI providers via **BYOK (Bring Your Own Key)**:
 
-- **OpenAI** (GPT-4, GPT-3.5, ecc.)
+- **OpenAI** (GPT-4, GPT-3.5, etc.)
 - **DeepSeek**
-- **Ollama** (per modelli locali)
-- Altri provider compatibili con API standard
+- **Ollama** (for local models)
+- Other providers compatible with standard APIs
 
-> **Nota:** L'utente deve fornire la propria chiave API e selezionare il modello desiderato nelle impostazioni. L'add-in **non fornisce** modelli AI di default.
+> **Note:** Users must provide their own API key and select the desired model in settings. The add-in **does not provide** any AI models by default.
 
-## 📥 Installazione
+## 📥 Installation
 
-1. Scarica il file `manifest.xml` dalla [pagina di rilascio](https://www.zapirio.com/microsoft-word-ai-bridge/)
-2. Salva il file in una cartella condivisa in rete
-3. Aggiungi Word come Catalogo Attendibile (`Opzioni → Centro protezione → Cataloghi componenti aggiuntivi attendibili`)
-4. Carica l'add-in da `Inserisci → I miei componenti aggiuntivi → Cartella condivisa`
+1. Download the `manifest.xml` file from the [release page](https://www.zapirio.com/microsoft-word-ai-bridge/)
+2. Save the file in a network-shared folder
+3. Add Word as a Trusted Catalog (`Options → Trust Center → Trusted Add-in Catalogs`)
+4. Load the add-in from `Insert → My Add-ins → Shared Folder`
 
-## 📚 Documentazione
+## 📚 Documentation
 
-Per guide dettagliate e supporto, visita la [pagina ufficiale](https://www.zapirio.com/microsoft-word-ai-bridge/).
+For detailed guides and support, visit the [official page](https://www.zapirio.com/microsoft-word-ai-bridge/).
