@@ -5,18 +5,20 @@ An add-in for Microsoft Word that integrates Artificial Intelligence directly in
 ## 🤖 Tools Included
 
 - **Chat AI:** Conversational interface to interact with AI models
-- **Intelligent Agent:** AI can read and actively modify the document based on your commands
-- **Quick Actions:** Translation, text improvement, grammar correction, and summarization with one click
-- **Change Tracking:** View proposed changes as "Redlines" to accept or reject
+- **Write from section:** Select a text, and ask AI to continue for you
+- **Add emojis:** 🤖 the hotest function! 🔥
+- **Add AI comments:** Ask AI to insert comments on your text
+- **Rephrase:** If you don't find the words ask AI to rephrase what you wrote
+- **Proof read with AI:** As AI to fix the text for you
 
 ## 🔌 API Integration
 
 The add-in supports multiple AI providers via **BYOK (Bring Your Own Key)**:
 
-- **OpenAI** (GPT-4, GPT-3.5, etc.)
-- **DeepSeek**
-- **Ollama** (for local models)
+- **OpenAI** via API
+- **Ollama** (for local models like DeepSeek and many others)
 - Other providers compatible with standard APIs
+The flexibla API setting of this add-in will allow you to use virtually every model and AI service
 
 > **Note:** Users must provide their own API key and select the desired model in settings. The add-in **does not provide** any AI models by default.
 
